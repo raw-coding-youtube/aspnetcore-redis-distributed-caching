@@ -8,3 +8,4 @@
 3. [Caching Strategies & Theory](https://youtu.be/EJ73Bl3AtFY)
 4. [Project Setup & Practice](https://youtu.be/eNEAdd8J-WY)
 5. [Running in the Cloud](https://youtu.be/-heHQR1Jmuk)
+6. [Configuration and Final Thoughts](https://youtu.be/u05Y_H1rE-c)
