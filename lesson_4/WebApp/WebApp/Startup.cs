@@ -17,9 +17,11 @@ namespace WebApp
             services.AddControllers();
 
             services.AddStackExchangeRedisCache(config =>
-                config.Configuration = _env.IsDevelopment()
-                    ? "127.0.0.1:6379"
-                    : Environment.GetEnvironmentVariable("REDIS_URL")
+                {
+                    config.Configuration = _env.IsDevelopment()
+                        ? "127.0.0.1:6379"
+                        : Environment.GetEnvironmentVariable("REDIS_URL");
+                }
             );
 
             services.AddTransient<ServiceOne>()
